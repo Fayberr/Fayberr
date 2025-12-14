@@ -1,32 +1,29 @@
-# Hi 👋, I'm Fayber
+# Hi there 👋 I'm Fayber
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Aspiring+Full-Stack+Web+Developer" />
 
-### Aspiring Full-Stack Web Developer
+### 🧠 Languages I'm Learning
+<img src="https://skillicons.dev/icons?i=js,ts,py,go,mongodb,react,nodejs" width="50" height="50"/>
 
-- 🌱 Currently learning **JavaScript, TypeScript, React, Node.js, Python, Go, MongoDB**  
-- 💻 Aiming to become a **Full-Stack Web Developer**  
-- 📫 Reach me at: **[fayber.dev@gmail.com](mailto:fayber.dev@gmail.com)**
+### ⚙️ Frameworks & Libraries
+<img src="https://skillicons.dev/icons?i=react,nodejs,express" width="50" height="50"/>
 
----
+### 🛢️ Databases
+<img src="https://skillicons.dev/icons?i=mongodb" width="50" height="50"/>
 
-### Connect with me
-<p>
-<a href="https://github.com/Fayberr" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="github" width="40" height="40"/></a>
-<a href="https://leetcode.com/Fayber" target="_blank"><img src="https://skillicons.dev/icons?i=leet-code" alt="leetcode" width="40" height="40"/></a>
-</p>
+### 🧪 Tools & Platforms
+<img src="https://skillicons.dev/icons?i=github,vercel,postman" width="50" height="50"/>
 
----
+## 🚀 Projects
 
-### Languages & Tools I'm Learning
-<p>
-<img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,py,mongodb,go" alt="languages" width="60" height="60"/>
-</p>
-
----
-
-### GitHub Stats
-<p>
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Fayberr&show_icons=true&layout=compact" alt="top langs"/>
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=Fayberr&show_icons=true" alt="github stats"/>
-</p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Fayberr" alt="streak stats"/></p>
+<table>
+  <tr>
+    <a href="https://github.com/Fayberr/your-project-1">
+      <img src="https://via.placeholder.com/300x150.png?text=Project+1" />
+    </a>
+  </tr>
+  <tr>
+    <a href="https://github.com/Fayberr/your-project-2">
+      <img src="https://via.placeholder.com/300x150.png?text=Project+2" />
+    </a>
+  </tr>
+</table>
