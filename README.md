@@ -30,6 +30,6 @@ This is the **stack I'm aiming to master**:
 
 ### GitHub Stats
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Fayberr&show_icons=true&layout=compact" alt="top langs"/>
-<img src="https://github-readme-stats.vercel.app/api?username=Fayberr&show_icons=true" alt="github stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Fayberr&show_icons=true&layout=compact&theme=dark" alt="top langs"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Fayberr&show_icons=true&theme=dark" alt="github stats"/>
 </p>
