@@ -1,47 +1,42 @@
 # Hi there 👋 I'm Fayber
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=600&lines=Aspiring+Full-Stack+Web+Developer" />
 
-### 🧠 Languages I'm Learning
+### Aspiring Full-Stack Web Developer  
+This is the **stack I'm aiming to master**:
+
+### 🧠 Languages
 <p>
-<img src="https://skillicons.dev/icons?i=js" width="100" height="100"/>
-<img src="https://skillicons.dev/icons?i=ts" width="100" height="100"/>
-<img src="https://skillicons.dev/icons?i=py" width="100" height="100"/>
-<img src="https://skillicons.dev/icons?i=go" width="100" height="100"/>
-<img src="https://skillicons.dev/icons?i=mongodb" width="100" height="100"/>
-<img src="https://skillicons.dev/icons?i=nodejs" width="100" height="100"/>
-<img src="https://skillicons.dev/icons?i=react" width="100" height="100"/>
+<img src="https://skillicons.dev/icons?i=js" width="70" height="70"/>
+<img src="https://skillicons.dev/icons?i=ts" width="70" height="70"/>
+<img src="https://skillicons.dev/icons?i=py" width="70" height="70"/>
+<img src="https://skillicons.dev/icons?i=go" width="70" height="70"/>
+<img src="https://skillicons.dev/icons?i=mongodb" width="70" height="70"/>
+<img src="https://skillicons.dev/icons?i=nodejs" width="70" height="70"/>
+<img src="https://skillicons.dev/icons?i=react" width="70" height="70"/>
 </p>
 
 ### ⚙️ Frameworks & Libraries
 <p>
-<img src="https://skillicons.dev/icons?i=react" width="100" height="100"/>
-<img src="https://skillicons.dev/icons?i=nodejs" width="100" height="100"/>
-<img src="https://skillicons.dev/icons?i=express" width="100" height="100"/>
+<img src="https://skillicons.dev/icons?i=react" width="70" height="70"/>
+<img src="https://skillicons.dev/icons?i=nodejs" width="70" height="70"/>
+<img src="https://skillicons.dev/icons?i=express" width="70" height="70"/>
 </p>
 
 ### 🛢️ Databases
 <p>
-<img src="https://skillicons.dev/icons?i=mongodb" width="100" height="100"/>
+<img src="https://skillicons.dev/icons?i=mongodb" width="70" height="70"/>
 </p>
 
 ### 🧪 Tools & Platforms
 <p>
-<img src="https://skillicons.dev/icons?i=github" width="100" height="100"/>
-<img src="https://skillicons.dev/icons?i=vercel" width="100" height="100"/>
-<img src="https://skillicons.dev/icons?i=postman" width="100" height="100"/>
+<img src="https://skillicons.dev/icons?i=github" width="70" height="70"/>
+<img src="https://skillicons.dev/icons?i=vercel" width="70" height="70"/>
+<img src="https://skillicons.dev/icons?i=postman" width="70" height="70"/>
 </p>
 
-## 🚀 Projects
+### GitHub Stats
+<p>
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Fayberr&show_icons=true&layout=compact" alt="top langs"/>
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=Fayberr&show_icons=true" alt="github stats"/>
+</p>
 
-<table>
-  <tr>
-    <a href="https://github.com/Fayberr/your-project-1">
-      <img src="https://via.placeholder.com/500x250.png?text=Project+1" />
-    </a>
-  </tr>
-  <tr>
-    <a href="https://github.com/Fayberr/your-project-2">
-      <img src="https://via.placeholder.com/500x250.png?text=Project+2" />
-    </a>
-  </tr>
-</table>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Fayberr" alt="streak stats"/></p>
