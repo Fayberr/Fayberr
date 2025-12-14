@@ -1,6 +1,6 @@
 # Hi 👋, I'm Fayber
 
-### Aspiring Full-Stack Web Developer | Cybersecurity Enthusiast
+### Aspiring Full-Stack Web Developer
 
 - 🌱 Currently learning **JavaScript, TypeScript, React, Node.js, Python, Go, MongoDB**  
 - 💻 Aiming to become a **Full-Stack Web Developer**  
@@ -10,15 +10,15 @@
 
 ### Connect with me
 <p>
-<a href="https://github.com/Fayberr" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="github" width="30" height="30"/></a>
-<a href="https://leetcode.com/Fayber" target="_blank"><img src="https://skillicons.dev/icons?i=leet-code" alt="leetcode" width="30" height="30"/></a>
+<a href="https://github.com/Fayberr" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="github" width="40" height="40"/></a>
+<a href="https://leetcode.com/Fayber" target="_blank"><img src="https://skillicons.dev/icons?i=leet-code" alt="leetcode" width="40" height="40"/></a>
 </p>
 
 ---
 
 ### Languages & Tools I'm Learning
 <p>
-<img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,py,mongodb,go" alt="languages" width="40" height="40"/>
+<img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,py,mongodb,go" alt="languages" width="60" height="60"/>
 </p>
 
 ---
