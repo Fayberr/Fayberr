@@ -1,7 +1,8 @@
 # Hi there 👋 I'm Fayber
 
 ### Aspiring Full-Stack Web Developer
-Take a look at <a href=https://github.com/Fayberr/Fayberr/devlog.md>my devlog </a> to see if im working on my skills :) 
+Take a look at <a href=https://github.com/Fayberr/Fayberr/devlog.md>my devlog </a> to see if im working on my skills :)
+
 This is the **stack I'm aiming to master**:
 
 ---
