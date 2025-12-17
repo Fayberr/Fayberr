@@ -48,7 +48,7 @@ Edit changes → `git add` → `git commit` → `git push` → version tracked l
 
 </details>
 
-###17.12.2025
+### 17.12.2025
 - Learned CSS Basics and Flexbox
 - Starting with some JS
 - Looked at fractures of React and Tailwind
