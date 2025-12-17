@@ -48,6 +48,52 @@ Edit changes → `git add` → `git commit` → `git push` → version tracked l
 
 </details>
 
+
+### 16.12.2025
+- Learned basic HTML structure
+- Used semantic elements (`header`, `section`, `footer`)
+- Practiced headings, paragraphs, links, images, lists
+- Built a simple form with inputs and textarea
+
+<details>
+<summary>HTML Basics Recap:</summary>
+
+- Document structure
+  - `<!DOCTYPE html>` → HTML5 declaration
+  - `<html>`, `<head>`, `<body>` → page skeleton
+
+- Text content
+  - Headings `<h1>`–`<h6>`, paragraphs `<p>`
+  - Links `<a>` with `href`, `target="_blank"`, `rel="noopener noreferrer"`
+  - Horizontal rule `<hr>`
+
+- Sections & semantic grouping
+  - `<header>`, `<section>`, `<footer>`
+
+- Lists
+  - `<ul>` → unordered list
+  - `<li>` → list items
+
+- Media
+  - `<img src="..." alt="...">`
+
+- Forms
+  - `<form>` container
+  - `<label for="id">` for inputs
+  - `<input>` types text/email
+  - `<textarea>` for multi-line input
+  - `<button type="submit">`
+
+- Attributes
+  - `id` → unique element reference
+  - `name` → form element identifier
+  - `placeholder` → hint text
+
+**Overall:**  
+Practiced structuring a webpage, using semantic elements, and creating basic forms for interaction.
+</details>
+
+
 ### 17.12.2025
 - Learned CSS Basics and Flexbox
 - Starting with some JS
