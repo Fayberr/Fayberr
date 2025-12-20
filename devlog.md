@@ -290,3 +290,48 @@ ah, got it. dann alles neutral und konzeptuell, englisch, mit generischen code-e
 
 </details>
 
+### 20.12.2025
+
+* Learned how to set up a React + Talwind Project
+
+<details>
+<summary>React + Tailwind Setup Recap:</summary>
+
+* Create a Vite project
+
+  * `npm create vite@latest` → initializes a new React project
+
+* Install Tailwind
+
+  * `npm install tailwindcss @tailwindcss/vite` → adds Tailwind and the Vite plugin
+
+* Configure Vite plugin
+
+  * Edit `vite.config.ts`:
+
+    ```js
+    import { defineConfig } from 'vite'
+    import react from '@vitejs/plugin-react'
+    import tailwindcss from '@tailwindcss/vite'
+
+    export default defineConfig({
+      plugins: [react(), tailwindcss()],
+    })
+    ```
+
+* Import Tailwind CSS
+
+  * Add to your CSS file:
+
+    ```css
+    @import "tailwindcss";
+    ```
+
+* Start development
+
+  * `npm run dev` → launches the local dev server
+  * Use Tailwind classes in JSX or HTML, e.g., `<h1 class="text-3xl font-bold underline">Hello world!</h1>`
+
+</details>
+
+
