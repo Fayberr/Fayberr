@@ -247,3 +247,46 @@ Focused on understanding how core JavaScript concepts work and how they affect e
 
 </details>
 
+ah, got it. dann alles neutral und konzeptuell, englisch, mit generischen code-examples.
+
+### 19.12.2025
+
+* Started learning React basics
+* Learned how React code is built into static HTML/CSS/JS files
+* Explored hosting concepts like Cloudflare tunnels and Apache VirtualHosts
+
+<details>
+<summary>React & Hosting Concepts Recap:</summary>
+
+* **React Components:**
+
+  * Components are reusable UI units
+  * A component can be defined in one file and imported into another:
+
+    ```jsx
+    import ComponentA from './ComponentA';
+    ```
+  * Multiple components can be rendered together inside a parent container:
+
+    ```jsx
+    <>
+      <ComponentA />
+      <ComponentB />
+    </>
+    ```
+  * JSX allows writing HTML-like syntax directly in JavaScript
+
+* **React Build:**
+
+  * `npm run build` compiles the React app into static files
+  * Output: `index.html` as a container, `assets/*.js` containing all components and logic, `assets/*.css` for styling
+  * Browser loads HTML, JS renders components dynamically
+
+* **Hosting Concepts:**
+
+  * Cloudflare Tunnel exposes a local server to the internet
+  * Apache VirtualHosts map domains to specific folders
+  * Raspberry Pi hosting was briefly reviewed, mainly for serving static files
+
+</details>
+
