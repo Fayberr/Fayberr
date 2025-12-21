@@ -330,7 +330,7 @@ ah, got it. dann alles neutral und konzeptuell, englisch, mit generischen code-e
 * Start development
 
   * `npm run dev` → launches the local dev server
-  * Use Tailwind classes in JSX or HTML, e.g., `<h1 class="text-3xl font-bold underline">Hello world!</h1>`
+  * Use Tailwind classes in JSX or HTML, e.g., `<h1 className="text-3xl font-bold underline">Hello world!</h1>`
 
 </details>
 
