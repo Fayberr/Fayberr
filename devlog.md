@@ -334,4 +334,88 @@ ah, got it. dann alles neutral und konzeptuell, englisch, mit generischen code-e
 
 </details>
 
+### 21.12.2025
+
+* Learned more about React Props, Destructuring, PropTypes and Default Props
+
+<details>
+<summary>React Props & Destructuring Recap:</summary>
+
+* **Props Basics**
+
+  * Components receive data via props:
+
+    ```jsx
+    function Greeting(props) {
+      return <p>Hello, {props.name}</p>
+    }
+    ```
+  * Props can be accessed directly or via destructuring.
+
+* **Destructuring Props**
+
+  * Cleaner and more readable syntax:
+
+    ```jsx
+    function Greeting({ name, age }) {
+      return <p>{name} is {age} years old</p>
+    }
+    ```
+
+* **Default Values**
+
+  * Instead of `defaultProps`, use defaults in destructuring (modern approach):
+
+    ```jsx
+    function Student({ studentName = "Guest", age = 0, isStudent = false }) {
+      return (
+        <div>
+          <p>Name: {studentName}</p>
+          <p>Age: {age}</p>
+          <p>Is Student: {isStudent ? "yes" : "no"}</p>
+        </div>
+      )
+    }
+    ```
+
+* **PropTypes**
+
+  * Optional in modern ReactJS without TypeScript
+  * Can still be used to validate props
+  * Must be installed via npm:
+
+    ```bash
+    npm install prop-types
+    ```
+  * Example:
+
+    ```jsx
+    import PropTypes from 'prop-types'
+
+    Student.propTypes = {
+      studentName: PropTypes.string,
+      age: PropTypes.number,
+      isStudent: PropTypes.bool,
+    }
+    ```
+
+* **React Component Usage**
+
+  * Passing props to component:
+
+    ```jsx
+    <Student studentName="Alice" age={20} isStudent={true} />
+    <Student /> {/* uses default values */}
+    ```
+
+* **Key Takeaways**
+
+  * Use destructuring + default values for cleaner code
+  * PropTypes are optional, mainly for library components
+  * `defaultProps` is mostly outdated in Function Components
+  * PropTypes must be installed via npm if used
+
+</details>
+
+
 
