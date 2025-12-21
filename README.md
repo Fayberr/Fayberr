@@ -14,13 +14,16 @@ This is the **stack I'm aiming to master**:
 <img src="https://skillicons.dev/icons?i=js" width="80" height="80"/>
 <img src="https://skillicons.dev/icons?i=ts" width="80" height="80"/>
 <img src="https://skillicons.dev/icons?i=py" width="80" height="80"/>
-<img src="https://skillicons.dev/icons?i=go" width="80" height="80"/>
 </p>
 
 ### ⚙️ Frameworks & Libraries
 <p>
 <img src="https://skillicons.dev/icons?i=react" width="80" height="80"/>
+<img src="https://skillicons.dev/icons?i=tailwind" width="80" height="80"/>  
 <img src="https://skillicons.dev/icons?i=nodejs" width="80" height="80"/>
+<img src="https://skillicons.dev/icons?i=nextjs" width="80" height="80"/>
+<img src="https://skillicons.dev/icons?i=supabase" width="80" height="80"/>
+<img src="https://skillicons.dev/icons?i=firebase" width="80" height="80"/>
 </p>
 
 ### 🛢️ Databases
