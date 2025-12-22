@@ -417,5 +417,133 @@ ah, got it. dann alles neutral und konzeptuell, englisch, mit generischen code-e
 
 </details>
 
+### 22.12.2025
+
+* Learned TypeScript basics and how to work with it in React
+<details>
+<summary>TypeScript Basics & React Intergration Recap:</summary>
+
+* **Variables & Types**
+
+  * Variables can be typed explicitly:
+
+    ```ts
+    let name: string
+    let age: number
+    let isAdult: boolean
+    ```
+
+  * TypeScript enforces types and prevents invalid assignments.
+
+  * Boolean values can be calculated dynamically.
+
+* **Arrays & Tuples**
+
+  * Arrays have typed elements:
+
+    ```ts
+    let numbers: number[]
+    let names: string[]
+    ```
+
+  * Tuples have a fixed length and a specific type for each position:
+
+    ```ts
+    let user: [string, number]
+    ```
+
+  * Union arrays allow multiple types for elements:
+
+    ```ts
+    let mixed: (string | number)[]
+    ```
+
+* **Functions**
+
+  * Function parameters and return types can be typed:
+
+    ```ts
+    function add(a: number, b: number): number { ... }
+    function logMessage(msg: string): void { ... }
+    ```
+
+* **Union Types & Literal Types**
+
+  * Union types allow multiple types for a single value:
+
+    ```ts
+    type ID = string | number
+    ```
+
+  * Literal types restrict possible values:
+
+    ```ts
+    type Status = "idle" | "loading" | "error"
+    ```
+
+* **React Components & Props**
+
+  * Props can be typed inline or with interfaces:
+
+    ```ts
+    function Component({ prop1, prop2 }: { prop1: string; prop2?: boolean }) { ... }
+    ```
+
+  * Props can be destructured directly in the parameter list.
+
+  * TypeScript enforces correct prop types.
+
+* **Arrays and Objects as Props**
+
+  * Arrays of objects can be passed as props:
+
+    ```ts
+    function List({ fruits }: { fruits: { id: number; name: string; calories: number }[] }) {
+      ...
+    }
+    ```
+
+  * Destructuring in parameters gives **direct acces** to the Array Variables (`fruits`)
+
+  * `.filter()` can be used to select certain elements:
+
+    ```ts
+    const lowCalFruits = fruits.filter(fruit => fruit.calories < 100)
+    ```
+
+  * `.map()` transforms each element into a new value, commonly JSX:
+
+    ```ts
+    const listItems = lowCalFruits.map(fruit =>
+      <li key={fruit.id}>
+        {fruit.name} ({fruit.calories} cal)
+      </li>
+    )
+    ```
+
+  * Key points:
+
+    * `.map()` = “for each element, do something and collect the results”
+    * `key` prop is required for React to track elements efficiently
+    * Inline typing allows **arrays and objects as props** without interfaces
+    * Destructuring + `.map()` = simple and readable list rendering
+
+  * JSX rendering:
+
+    ```ts
+    return <ul>{listItems}</ul>
+    ```
+
+* **Key Takeaways**
+
+  * TypeScript provides strong type safety for variables, functions, arrays, tuples, objects, and props.
+  * Literal and union types help control allowed values.
+  * Destructuring and inline typing simplify React component props.
+  * `.map()` and `.filter()` are essential for **manipulating and rendering arrays/objects passed as props** in React.
+
+</details>
+
+
+
 
 
