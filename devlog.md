@@ -543,6 +543,79 @@ ah, got it. dann alles neutral und konzeptuell, englisch, mit generischen code-e
 
 </details>
 
+### 23.12.2025
+
+* Practiced TypeScript with React: typed props, arrays of objects, `.map()` and `.filter()`
+
+<details>
+<summary>Task Tracker Component Recap:</summary>
+
+* **Props Typing & Destructuring**
+
+  * Props can be destructured directly in the parameter list:
+
+    ```ts
+    function List({ list }: { list: { id: number; name: string; status: Status }[] }) { ... }
+    ```
+
+  * Inline typing can be used, or a separate type can be declared:
+
+    ```ts
+    type Status = "todo" | "done"
+    ```
+
+* **Literal Types / Union Types**
+
+  * Restrict allowed values for `status`:
+
+    ```ts
+    type Status = "todo" | "done"
+    ```
+
+  * Ensures type safety: only `"todo"` or `"done"` can be assigned to `status`.
+
+* **Arrays of Objects as Props**
+
+  * `list` is an array of task objects:
+
+    ```ts
+    { id: number; name: string; status: Status }[]
+    ```
+
+  * Each object must follow this structure, TypeScript enforces it.
+
+* **Filtering & Mapping Arrays**
+
+  * `.filter()` to separate tasks by status:
+
+    ```ts
+    const todoList = list.filter(task => task.status === "todo")
+    const doneList = list.filter(task => task.status === "done")
+    ```
+
+  * `.map()` to transform each task into JSX elements:
+
+    ```ts
+    todoList.map(task => <li key={task.id}>{task.name} ⏳</li>)
+    doneList.map(task => <li key={task.id}>{task.name} ✅</li>)
+    ```
+
+  * Key prop ensures React efficiently tracks each list item.
+
+* **Rendering Lists in JSX**
+
+  * Display tasks in separate sections (`Todo` vs `Done`)
+  * Combine filtering and mapping for dynamic rendering.
+
+* **Key Takeaways**
+
+  * TypeScript literal types make props safer (`Status`)
+  * Inline typing or separate `type` declaration both work
+  * Arrays of objects as props + destructuring + `.map()` + `.filter()` = core React pattern
+  * Destructuring avoids repetitive `props.` access
+  * Proper typing prevents invalid values and enforces consistency
+
+</details>  
 
 
 
