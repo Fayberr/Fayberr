@@ -617,6 +617,12 @@ ah, got it. dann alles neutral und konzeptuell, englisch, mit generischen code-e
 
 </details>  
 
+### 24.12.2025
+
+* Worked on deepening my knowledge of React, Tailwind, and TypeScript.
+* Started with React Callbacks
+
+
 
 
 
