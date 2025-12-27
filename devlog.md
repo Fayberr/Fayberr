@@ -247,8 +247,6 @@ Focused on understanding how core JavaScript concepts work and how they affect e
 
 </details>
 
-ah, got it. dann alles neutral und konzeptuell, englisch, mit generischen code-examples.
-
 ### 19.12.2025
 
 * Started learning React basics
