@@ -620,7 +620,7 @@ Focused on understanding how core JavaScript concepts work and how they affect e
 * Worked on deepening my knowledge of React, Tailwind, and TypeScript.
 * Started with React Callbacks
 
-###27.12.2025
+### 27.12.2025
 
 * Kept working on React, Tailwind and Typescript
 * Started to use Hooks and States for React
