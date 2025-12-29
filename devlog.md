@@ -624,6 +624,51 @@ Focused on understanding how core JavaScript concepts work and how they affect e
 
 * Kept working on React, Tailwind and Typescript
 * Started to use Hooks and States for React
+  
+### 29.12.2025
+
+* Managed state in React with `useState`
+* Updated and removed items immutably
+* Passed callbacks between components
+* Ensured unique IDs for list items
+* Practiced TypeScript type safety
+
+<details>
+<summary>React & TypeScript Concepts Recap:</summary>
+
+* **State Management**
+
+  * `useState` for storing values
+  * `map` to update items immutably
+  * `filter` to remove items immutably
+
+* **Component Communication**
+
+  * Passing functions as props from parent to child
+  * Children can trigger state changes in parent
+
+* **ID Generation**
+
+  * Avoid using array length for IDs
+  * Use unique and stable values (e.g., timestamps)
+
+* **TypeScript Safety**
+
+  * Define interfaces for data structures
+  * Ensure updates respect type definitions
+  * Prevent invalid objects from entering state
+
+* **React Best Practices**
+
+  * Keep UI components stateless when possible
+  * State updates should be immutable
+  * Use unique `key` for list rendering
+
+**Overall:**
+Learned core React and TypeScript concepts: immutable state updates, component communication, ID management, and type safety.
+
+</details>
+
 
 
 
